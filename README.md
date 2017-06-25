@@ -1,1 +1,2 @@
 # AdventuresInMinecraft
+如果你使用python3来进行开发，确保你使用的python版本为python 3.4.2

@@ -1,0 +1,97 @@
+[06:47:37] [Server thread/INFO]: Starting minecraft server version 1.12
+[06:47:37] [Server thread/INFO]: Loading properties
+[06:47:37] [Server thread/INFO]: Default game type: CREATIVE
+[06:47:37] [Server thread/INFO]: Generating keypair
+[06:47:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:47:38] [Server thread/INFO]: Using default channel type
+[06:47:39] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-a7d074c (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[06:47:39] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.3
+[06:47:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:47:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:47:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:47:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:47:39] [Server thread/INFO]: Preparing level "world"
+[06:47:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4826348047445414065)
+[06:47:42] [Server thread/INFO]: Preparing spawn area: 4%
+[06:47:43] [Server thread/INFO]: Preparing spawn area: 5%
+[06:47:44] [Server thread/INFO]: Preparing spawn area: 9%
+[06:47:45] [Server thread/INFO]: Preparing spawn area: 14%
+[06:47:46] [Server thread/INFO]: Preparing spawn area: 18%
+[06:47:48] [Server thread/INFO]: Preparing spawn area: 22%
+[06:47:49] [Server thread/INFO]: Preparing spawn area: 27%
+[06:47:50] [Server thread/INFO]: Preparing spawn area: 36%
+[06:47:51] [Server thread/INFO]: Preparing spawn area: 44%
+[06:47:52] [Server thread/INFO]: Preparing spawn area: 50%
+[06:47:53] [Server thread/INFO]: Preparing spawn area: 60%
+[06:47:54] [Server thread/INFO]: Preparing spawn area: 68%
+[06:47:55] [Server thread/INFO]: Preparing spawn area: 74%
+[06:47:56] [Server thread/INFO]: Preparing spawn area: 81%
+[06:47:57] [Server thread/INFO]: Preparing spawn area: 91%
+[06:47:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4826348047445414065)
+[06:47:59] [Server thread/INFO]: Preparing spawn area: 6%
+[06:48:00] [Server thread/INFO]: Preparing spawn area: 17%
+[06:48:01] [Server thread/INFO]: Preparing spawn area: 31%
+[06:48:02] [Server thread/INFO]: Preparing spawn area: 44%
+[06:48:03] [Server thread/INFO]: Preparing spawn area: 56%
+[06:48:04] [Server thread/INFO]: Preparing spawn area: 68%
+[06:48:05] [Server thread/INFO]: Preparing spawn area: 76%
+[06:48:06] [Server thread/INFO]: Preparing spawn area: 86%
+[06:48:07] [Server thread/INFO]: Preparing spawn area: 99%
+[06:48:07] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4826348047445414065)
+[06:48:08] [Server thread/INFO]: Preparing spawn area: 43%
+[06:48:09] [Server thread/INFO]: Preparing spawn area: 72%
+[06:48:10] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.3
+[06:48:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:48:10] [Server thread/INFO]: Done (30.583s)! For help, type "help" or "?"
+[06:48:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2533ms behind, skipping 50 tick(s)
+[06:48:37] [Server thread/INFO]: BDZNH[/127.0.0.1:4017] logged in with entity id 2630 at ([world]196.5, 69.0, 248.5)
+[06:48:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:4018.
+[06:48:51] [Thread-8/INFO]: Starting output thread!
+[06:48:51] [Thread-7/INFO]: Starting input thread!
+[06:48:51] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin.getNamedPlayer(RaspberryJuicePlugin.java:70) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.getCurrentPlayer(RemoteSession.java:253) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:167) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-a7d074c]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-a7d074c]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-a7d074c]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-a7d074c]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-a7d074c]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-a7d074c]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[06:48:59] [Thread-7/WARN]: java.net.SocketException: Connection reset
+[06:48:59] [Thread-7/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at java.io.InputStreamReader.read(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at java.io.BufferedReader.fill(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at java.io.BufferedReader.readLine(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at java.io.BufferedReader.readLine(Unknown Source)
+[06:48:59] [Thread-7/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession$InputThread.run(RemoteSession.java:337)
+[06:48:59] [Thread-7/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[06:48:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:4018.
+[06:49:07] [Server thread/INFO]: BDZNH lost connection: Disconnected
+[06:49:08] [Server thread/INFO]: BDZNH left the game
+[06:49:37] [Server thread/INFO]: Stopping the server
+[06:49:37] [Server thread/INFO]: Stopping server
+[06:49:37] [Server thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.3
+[06:49:37] [Thread-5/WARN]: java.net.SocketException: socket closed
+[06:49:37] [Thread-5/WARN]: 	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+[06:49:37] [Thread-5/WARN]: 	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+[06:49:37] [Thread-5/WARN]: 	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+[06:49:37] [Thread-5/WARN]: 	at java.net.PlainSocketImpl.accept(Unknown Source)
+[06:49:37] [Thread-5/WARN]: 	at java.net.ServerSocket.implAccept(Unknown Source)
+[06:49:37] [Thread-5/WARN]: 	at java.net.ServerSocket.accept(Unknown Source)
+[06:49:37] [Thread-5/WARN]: 	at net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+[06:49:37] [Thread-5/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[06:49:37] [Server thread/INFO]: Saving players
+[06:49:37] [Server thread/INFO]: Saving worlds
+[06:49:37] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[06:49:37] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[06:49:37] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
